@@ -1,0 +1,56 @@
+.menu li {
+    list-style: none;
+    display:inline-block;
+    border: 40px groove pink;
+    /*margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 60px;*/
+    margin: 5px;
+    padding: 5px;
+    border-radius: 30px;
+    text-align: center;
+}
+.cabecera h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: salmon;
+}
+
+.menu{
+    background-color:blanchedalmond;
+    text-align: center;
+}
+
+header,section, footer, aside, nav, article{
+    display: block;
+}
+
+body {
+   text-align: center;
+   background: burlywood; 
+}
+
+h1,h2,h3{
+    color: palevioletred;
+}
+
+.formulario{
+    width: 900px;
+    border: 1px double black;
+    margin: 15px auto;
+}
+
+.seccion{
+    margin: 20px;
+    width: 600px;
+    float: left;
+}
+
+article{
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 25px;
+    background: rgb(126, 200, 202);
+}
