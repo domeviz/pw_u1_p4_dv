@@ -54,3 +54,34 @@ article{
     margin-bottom: 25px;
     background: rgb(126, 200, 202);
 }
+
+img.garden{
+    width: 400px;
+    height: 250px;
+}
+
+.tiempo{
+    width: 400px;
+    height: 250px;
+}
+
+.presidentes{
+    width: 400px;
+    height: 250px;
+}
+
+.referencias{
+    border: 10px dashed black;
+    width: 200px;
+    float: left;
+    margin-top: 200px;
+    margin-left: 28px;
+}
+
+article footer{
+    text-align: right;
+}
+
+.pie{
+    clear: both;
+}
