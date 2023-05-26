@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=>, initial-scale=1.0">
     <title>Calculadora</title>
-    <script src="../js/calculadora.js">
+    <link rel="stylesheet" href="../css/calculadora.css">
+    <script src="../js/calculadoraLambda.js">
     </script>
 </head>
 <body>
     <header></header>
     <nav></nav>
-    <section>
+    <section class="clase">
         <label for="idNum1">Numero 1</label>
         <input id="idNum1" type="number">
         <label for="idNum2">Numero 2</label>
@@ -23,11 +24,14 @@
         <button onclick="dividirNumeros()">Dividir</button>
 
         <button onclick="insertarElemento()">Insertar</button>
-        <button onclick="eliminarElemento()">Eliminar</button>
+        <button onclick="eliminarElemento(ideliminar)">Eliminar</button>
 
         <label id="labelResultado" for="">Resultado: </label>
-        <label id="idEliminar" for=""></label>
-        <label id="idElemento" for=""></label>
+        <label id="ideliminar" for="">Elem</label>
+
+        <div id="elemento"></div>
+
+        <button onclick="conceptosJS()">Conceptos JS</button>
     </section>
     <footer></footer>
 </body>

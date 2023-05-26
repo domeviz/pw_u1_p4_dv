@@ -34,8 +34,14 @@ function convertir(idCampo){
     return parseInt(document.getElementById(idCampo).value);
 }
 function eliminarElemento(){
-    document.getElementById('idElemento').remove;
+    document.getElementById('ideliminar').remove();
+    console.log(document.getElementById('ideliminar'))
+    console.log('Test')
 }
 function insertarElemento(){
-    document.getElementById('elemento').innerHTML="<strong>Importante</strong>";
+    document.getElementById('elemento').innerHTML='<strong>Importante</strong>';
+}
+
+const conceptosJS=()=>{
+
 }
